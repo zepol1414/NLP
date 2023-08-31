@@ -1,0 +1,10 @@
+config:
+
+paths:
+  input:
+    database: data-input/database
+  output:
+    database: data-output/database
+    model: data-output/model
+
+datasets:
