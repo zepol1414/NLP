@@ -37,4 +37,9 @@ def function_embedding(df):
     # Create sentence and label lists
     sentences = df.text.values
     text_emb = [nlp(sentence) for sentence in sentences]
+    embedding = [text.vector for text in text_emb]
+
+    df["text_emb"] = embedding
+
+    return df
     
