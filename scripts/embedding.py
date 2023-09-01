@@ -8,10 +8,7 @@ Function to embed the text column of the dataset.
 # IMPORT MODULES
 
 # Import libraries
-import sys
 import spacy
-
-sys.dont_write_bytecode = True  # Disable cache
 
 ################################################################################
 # SETTINGS
