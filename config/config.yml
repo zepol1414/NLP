@@ -1,4 +1,10 @@
 config:
+  # Options: True, False
+  pos:
+    noun: True
+    verb: True
+    adv: True
+    adj: True
 
 paths:
   input:
