@@ -5,6 +5,10 @@ config:
     verb: True
     adv: True
     adj: True
+  # Options: True, False
+  embedding: False
+  # Options: count, tfidf
+  vectorizer: count
 
 paths:
   input:
@@ -14,3 +18,7 @@ paths:
     model: data-output/model
 
 datasets:
+  disease:
+    file: Symptom2Disease.csv
+    text: text
+    category: label
